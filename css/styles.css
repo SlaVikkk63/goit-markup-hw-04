@@ -102,11 +102,7 @@ body{
     color: #2196F3;
 }
 
-.navigation-header:hover,
-.navigation-header:focus{
-    color: #2196F3;
-    fill: #2196F3;
-}
+
 
 .navigation-header:hover .navigation,
 .navigation-header:focus .navigation{
@@ -115,12 +111,14 @@ body{
 }
 
 
-.footer-img{
-color: var(--secondary-text);    
-}   
+/* .footer-img{
+color: var(--secondary-text);  
+padding-right: 10px;  
+}    */
 
 .footer-img-a{
     fill: var(--secondary-text);
+    
 }
 
 .header-connect{
@@ -168,12 +166,11 @@ color: var(--secondary-text);
     letter-spacing: 0.06em;
     text-align: center;
     background-image: linear-gradient( rgba(47, 48, 58, 0.4),
-    rgba(95, 104, 197, 0.4)), 
+    rgba(47, 48, 58, 0.4)), 
     url(../img/lessons4/hero.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-
 }
 
 .hero-title, .logo2, .navigation-address{
@@ -265,6 +262,7 @@ color: var(--secondary-text);
     font-weight: 400;
     font-size: 16px;
     line-height: 1.18; 
+    margin-bottom: 16px;
 }
 
 .container-team{
@@ -426,7 +424,7 @@ button{
     display: flex;
     gap: 10px;
     justify-content: center;
-    padding-top: 16px;
+
     padding-bottom: 30px;
 }
 
@@ -461,7 +459,6 @@ button{
     height: 120px;
     background-color: #F5F4FA;
     margin-bottom: 30px;
-    border: 1px solid #AFB1B8;
     border-radius: 4px;
     display: flex;
     align-items: center;
@@ -537,8 +534,7 @@ button{
     display: flex;
     gap: 10px;
     justify-content: center;
-    padding-top: 16px;
-    padding-bottom: 30px;
+    
     
 }
 
@@ -566,4 +562,5 @@ button{
 
     
 .join-up-icon{
-    fill: #AFB1B8;}
+    fill: #FFFFFF;}
+
