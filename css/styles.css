@@ -370,6 +370,7 @@ button{
 
 .work-portfolio-card:hover,
 .work-portfolio-card:focus{
+    display: block;
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 
 }
@@ -470,9 +471,12 @@ button{
     justify-content: center;
 }
 
-.client-title{
+.section-clients{
     padding-top: 94px;
-    
+    padding-bottom: 94px;
+}
+
+.client-title{
     text-align: center;
     font-weight: 700;
     font-size: 36px;
@@ -485,14 +489,12 @@ button{
     display: flex;
     gap: 30px;
     justify-content: center; 
-    padding-bottom: 94px;
+
     padding-top: 50px;
 }
 
 .client-img{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+ fill: #AFB1B8;
     
 }
 
@@ -506,20 +508,19 @@ button{
     justify-content: center;
 }
 
-.client-icon{
-    fill: #AFB1B8;
+.client-item:hover,
+.client-item:focus{
+    border: 1px solid #2196F3;
+    color: #2196F3;
     
 }
 
-.client-item:hover,
-.client-item:focus{
-    background-color: #2196F3;
+.client-icon:hover,
+.client-icon:focus{
+    fill: #2196F3;
+    
 }
 
-.client-item:hover .client-icon,
-.client-item:focus .client-icon{
-    fill: #FFFFFF;
-}
 
 .footer-container{
     display: flex;
@@ -534,7 +535,7 @@ button{
     display: flex;
     gap: 10px;
     justify-content: center;
-    padding-top: 20px;
+    
     
     
 }
@@ -546,6 +547,7 @@ button{
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #FFFFFF;
+    padding-bottom: 20px;
     
 }
 
