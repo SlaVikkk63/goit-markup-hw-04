@@ -100,19 +100,20 @@ body{
     color: #2196F3;
 }
 
-
-
-.navigation-header:hover .navigation,
-.navigation-header:focus .navigation{
+.navigation-header:hover ,
+.navigation-header:focus{
     color: #2196F3;
     fill: #2196F3;
 }
 
 
-/* .footer-img{
-color: var(--secondary-text);  
-padding-right: 10px;  
-}    */
+
+/* .navigation-header:hover .navigation,
+.navigation-header:focus .navigation{
+    color: #2196F3;
+    fill: #2196F3;
+} */
+
 
 .footer-img-a{
     fill: var(--secondary-text);
@@ -482,6 +483,7 @@ button{
     font-size: 36px;
     line-height: 1.16;
     letter-spacing: 0.03em;
+    margin-bottom: 50px;
 }
 
 
@@ -490,15 +492,11 @@ button{
     gap: 30px;
     justify-content: center; 
 
-    padding-top: 50px;
-}
-
-.client-img{
- fill: #AFB1B8;
     
 }
 
-.client-item{
+.client-img{
+    fill: #AFB1B8;
     width: 170px;
     height: 92px;
     border: 1px solid #AFB1B8;
@@ -508,16 +506,35 @@ button{
     justify-content: center;
 }
 
-.client-item:hover,
+/* .client-item{
+    width: 170px;
+    height: 92px;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+
+.client-img:hover,
+.client-img:focus{
+    border: 1px solid #2196F3;
+    color: #2196F3;
+    fill: #2196F3;
+    
+}
+
+/* .client-item:hover,
 .client-item:focus{
     border: 1px solid #2196F3;
     color: #2196F3;
     
-}
+    
+} */
 
 .client-icon:hover,
 .client-icon:focus{
-    fill: #2196F3;
+    
     
 }
 
